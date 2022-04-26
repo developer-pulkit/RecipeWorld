@@ -65,3 +65,4 @@ svg {
 }
 `;
 export default Category;
+// Categories are food.
