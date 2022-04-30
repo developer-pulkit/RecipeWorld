@@ -12,7 +12,7 @@ function Search() {
       e.preventDefault();
       navigate('/searched/'+input)
   };
-
+  
   return (
     <FormStyle onSubmit={submitHandler}>
       <div>
@@ -43,7 +43,7 @@ const FormStyle = styled.form`
     border: none;
     border-radius: 0.5rem;
     outline: none;
-    width: 40rem;
+    width: 100%;
     height: 2rem;
   }
 
