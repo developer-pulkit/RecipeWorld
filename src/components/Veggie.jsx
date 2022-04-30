@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/splide.min.css";
+import { Splide, SplideSlide } from '@splidejs/react-splide'
+import '@splidejs/react-splide/css';
 import { Link } from "react-router-dom";
 
 function Veggie() {
@@ -32,7 +32,7 @@ function Veggie() {
         <Splide
           options={{
             perPage: 3,
-            arrows: false,
+            arrows: true,
             pagination: false,
             drag: "free",
             gap: "5rem",
